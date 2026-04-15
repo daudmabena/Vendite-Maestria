@@ -1,19 +1,17 @@
-# Sylius Laravel Port
+# Vendite & Maestria
 
-Laravel port of the Sylius e-commerce domain, implemented as a modular monolith with domain packages.
+**Vendite & Maestria** is a Laravel e-commerce platform built as a modular monolith: domain logic lives in isolated packages under `domains/`, and the root app composes them.
 
-## Application Design
-
-This project follows a domain-first design:
+## Application design
 
 - The root Laravel app is the composition layer (HTTP entrypoints, global config, shared runtime).
 - Business capabilities are split into isolated domain packages under `domains/`.
 - Each domain is loaded as a local Composer path package (`repositories: domains/*`), then auto-registered via service providers.
 - Domains keep their own routes, migrations, models, resources, and tests to preserve bounded contexts and reduce coupling.
 
-## Domain Modules
+## Domain modules
 
-Current modules live in `domains/` and mirror the repository structure:
+Current modules live in `domains/`:
 
 - `shop-core`: channels, locales, currencies, countries, zones, tax and shipping categories.
 - `catalog`: products, variants, taxons, options, attributes, pricing, images, reviews, and translations.
@@ -26,7 +24,7 @@ Current modules live in `domains/` and mirror the repository structure:
 
 Reference: [domains folder on GitHub](https://github.com/daudmabena/sylius_laravel/tree/main/domains)
 
-## Module Layout Convention
+## Module layout convention
 
 Each domain follows the same package structure:
 
@@ -40,9 +38,7 @@ domains/<module>/
   tests/
 ```
 
-This keeps domain code cohesive and makes incremental migration from the Symfony Sylius codebase easier to manage.
-
-## Getting Started
+## Getting started
 
 ### Requirements
 
@@ -72,8 +68,12 @@ Starts the full local stack (web server, queue worker, logs, and Vite).
 composer test
 ```
 
-## Contribution Notes
+## Contribution notes
 
 - Prefer adding behavior in the appropriate domain package rather than the root app.
 - Keep domain boundaries explicit; cross-domain dependencies should be intentional and minimal.
 - Add or update tests in the touched domain package.
+
+## License
+
+MIT

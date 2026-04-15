@@ -2,7 +2,7 @@
 
 ## 1. Current system baseline
 
-`sylius_laravel` is a functional modular monolith with a broad eCommerce domain and working command flows (cart, checkout, payment, shipment, moderation, contact).
+**Vendite & Maestria** is a functional modular monolith with a broad eCommerce domain and working command flows (cart, checkout, payment, shipment, moderation, contact).
 
 ## 2. Domain facts (as-is)
 

@@ -48,7 +48,7 @@ class ShopCatalogSeeder extends Seeder
             ['code' => 'default'],
             [
                 'name' => 'Default channel',
-                'description' => 'Migrated-from-Sylius-style default storefront',
+                'description' => 'Default storefront (Vendite & Maestria demo)',
                 'enabled' => true,
                 'base_currency_id' => $usd->id,
                 'default_locale_id' => $en->id,
@@ -129,7 +129,7 @@ class ShopCatalogSeeder extends Seeder
             ['code' => 'flat_us'],
             [
                 'name' => 'Flat rate (US)',
-                'description' => 'Sylius-style flat rate shipping',
+                'description' => 'Flat rate shipping (demo)',
                 'shipping_category_id' => $shippingCategory->id,
                 'zone_id' => $usZone->id,
                 'calculator' => 'flat_rate',
@@ -182,7 +182,7 @@ class ShopCatalogSeeder extends Seeder
             [
                 'name' => 'Demo product',
                 'slug' => 'demo-product',
-                'description' => 'Sample catalog row for Laravel port.',
+                'description' => 'Sample catalog row for Vendite & Maestria demo.',
             ],
         );
 

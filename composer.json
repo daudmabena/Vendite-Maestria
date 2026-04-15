@@ -1,10 +1,13 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "sylius/laravel-port",
+    "name": "vendite-maestria/laravel",
     "type": "project",
-    "description": "Laravel port of Sylius e-commerce domain (incremental migration from symfony_sylius).",
+    "description": "Vendite & Maestria — Laravel e-commerce platform as a domain-first modular monolith.",
     "keywords": [
         "laravel",
+        "ecommerce",
+        "modular-monolith",
+        "ddd",
         "framework"
     ],
     "license": "MIT",
