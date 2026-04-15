@@ -1,0 +1,24 @@
+{
+	"name": "modules/promotion",
+	"description": "",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Modules\\Promotion\\": "src/",
+			"Modules\\Promotion\\Tests\\": "tests/",
+			"Modules\\Promotion\\Database\\Factories\\": "database/factories/",
+			"Modules\\Promotion\\Database\\Seeders\\": "database/seeders/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Modules\\Promotion\\Providers\\PromotionServiceProvider"
+			]
+		}
+	}
+}

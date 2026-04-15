@@ -1,0 +1,24 @@
+{
+	"name": "modules/fulfillment",
+	"description": "",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Modules\\Fulfillment\\": "src/",
+			"Modules\\Fulfillment\\Tests\\": "tests/",
+			"Modules\\Fulfillment\\Database\\Factories\\": "database/factories/",
+			"Modules\\Fulfillment\\Database\\Seeders\\": "database/seeders/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Modules\\Fulfillment\\Providers\\FulfillmentServiceProvider"
+			]
+		}
+	}
+}

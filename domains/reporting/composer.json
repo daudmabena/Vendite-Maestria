@@ -1,0 +1,24 @@
+{
+	"name": "modules/reporting",
+	"description": "",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Modules\\Reporting\\": "src/",
+			"Modules\\Reporting\\Tests\\": "tests/",
+			"Modules\\Reporting\\Database\\Factories\\": "database/factories/",
+			"Modules\\Reporting\\Database\\Seeders\\": "database/seeders/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Modules\\Reporting\\Providers\\ReportingServiceProvider"
+			]
+		}
+	}
+}
