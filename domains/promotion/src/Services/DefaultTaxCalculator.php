@@ -7,7 +7,7 @@ namespace Modules\Promotion\Services;
 use Modules\ShopCore\Models\TaxRate;
 
 /**
- * Sylius\Component\Taxation\Calculator\DefaultCalculator — amount is a fraction (0.1 = 10%).
+ * Default fraction-based tax: amount is a fraction (0.1 = 10%).
  */
 final class DefaultTaxCalculator
 {

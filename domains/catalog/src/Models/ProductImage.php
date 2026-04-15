@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Storage;
 use InvalidArgumentException;
 
 /**
- * Product or variant image path (Sylius ProductImage) — store paths relative to the configured disk (e.g. public).
+ * Product or variant image path — store paths relative to the configured disk (e.g. public).
  */
 class ProductImage extends Model
 {

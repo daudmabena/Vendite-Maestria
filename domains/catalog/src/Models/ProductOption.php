@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
- * Configurable option axis (e.g. "Size", "Color") — Sylius ProductOption.
+ * Configurable option axis (e.g. "Size", "Color").
  */
 class ProductOption extends Model
 {

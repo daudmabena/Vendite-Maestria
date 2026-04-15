@@ -8,7 +8,7 @@ use Modules\Checkout\Models\Order;
 use Modules\Checkout\Workflow\Enums\OrderState;
 
 /**
- * Order lifecycle (Sylius-style): cart → placed (new) → fulfilled / cancelled.
+ * Order lifecycle: cart → placed (new) → fulfilled / cancelled.
  */
 final class OrderWorkflow
 {

@@ -96,7 +96,7 @@ class Customer extends Model
     }
 
     /**
-     * Aligns with Sylius Core Customer: default address belongs to this customer.
+     * Default address belongs to this customer (single default per customer).
      */
     public function setDefaultAddress(?Address $address): void
     {

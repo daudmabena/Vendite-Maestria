@@ -1,6 +1,6 @@
 # Vendite & Maestria — Re-Engineering Plan Index
 
-This document pack is the authoritative re-engineering guide for the **Vendite & Maestria** project (repository directory `sylius_laravel`).
+This document pack is the authoritative re-engineering guide for the **Vendite & Maestria** project ([GitHub: `daudmabena/Vendite-Maestria`](https://github.com/daudmabena/Vendite-Maestria)).
 
 ## Scope constraints
 

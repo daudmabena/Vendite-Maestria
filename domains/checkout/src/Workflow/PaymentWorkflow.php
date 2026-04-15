@@ -8,7 +8,7 @@ use Modules\Checkout\Models\Payment;
 use Modules\Checkout\Workflow\Enums\PaymentState;
 
 /**
- * Payment gateway workflow: cart → processing → completed | failed (Sylius-aligned).
+ * Payment gateway workflow: cart → processing → completed | failed.
  */
 final class PaymentWorkflow
 {

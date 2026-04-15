@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 
 /**
- * Attribute value on a product (optionally per-locale) — Sylius ProductAttributeValue.
+ * Attribute value on a product (optionally per-locale).
  */
 class ProductAttributeValue extends Model
 {

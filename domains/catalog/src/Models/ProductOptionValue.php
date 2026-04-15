@@ -9,7 +9,7 @@ use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 
 /**
- * A single choice on an axis (e.g. "M", "Red") — Sylius ProductOptionValue.
+ * A single choice on an axis (e.g. "M", "Red").
  */
 class ProductOptionValue extends Model
 {

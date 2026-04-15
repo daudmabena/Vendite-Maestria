@@ -435,7 +435,7 @@ For each file listed in section 4, create it in the domain's
 `Schema::table` block from the existing consolidated migration files.
 
 Source files to decompose:
-- `database/migrations/2026_04_13_120000_create_sylius_shop_core_tables.php`
+- `database/migrations/2026_04_13_120000_create_shop_core_tables.php`
 - `database/migrations/2026_04_13_130000_create_shop_customer_and_addressing_tables.php`
 - `database/migrations/2026_04_13_140000_create_shop_order_tables.php`
 - `database/migrations/2026_04_13_150000_add_inventory_and_channel_pricing.php`

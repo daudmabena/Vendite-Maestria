@@ -79,7 +79,7 @@ class Product extends Model
     }
 
     /**
-     * Gallery images not tied to a specific variant (Sylius-style shared gallery).
+     * Gallery images not tied to a specific variant (shared product gallery).
      */
     public function productLevelImages(): HasMany
     {

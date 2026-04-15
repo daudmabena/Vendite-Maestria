@@ -122,7 +122,7 @@ class ProductVariant extends Model
     }
 
     /**
-     * Sylius Stockable::isInStock — does not subtract on_hold.
+     * In-stock check uses on-hand quantity only (does not subtract on_hold).
      */
     public function isInStock(): bool
     {
@@ -130,7 +130,7 @@ class ProductVariant extends Model
     }
 
     /**
-     * Sylius\Component\Inventory\Checker\AvailabilityChecker::isStockSufficient
+     * Whether tracked inventory can satisfy the requested quantity (on_hand − on_hold).
      */
     public function isStockSufficient(int $quantity): bool
     {

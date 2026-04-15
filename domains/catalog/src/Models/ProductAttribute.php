@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 
 /**
- * Product spec definition (material, weight, …) — Sylius ProductAttribute.
+ * Product spec definition (material, weight, …).
  */
 class ProductAttribute extends Model
 {

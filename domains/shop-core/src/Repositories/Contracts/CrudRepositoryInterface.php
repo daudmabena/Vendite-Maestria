@@ -10,7 +10,7 @@ use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Collection;
 
 /**
- * Sylius Resource\Repository-style CRUD for Eloquent models.
+ * Generic resource-style CRUD contract for Eloquent models.
  *
  * @template TModel of Model
  */

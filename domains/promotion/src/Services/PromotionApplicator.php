@@ -11,7 +11,7 @@ use Modules\Promotion\Models\PromotionAction;
 use Modules\Promotion\Models\PromotionRule;
 
 /**
- * Cart promotions: rules (AND) + actions → order adjustments (Sylius-style types).
+ * Cart promotions: rules (AND) + actions → order adjustments (typed adjustment kinds).
  */
 final class PromotionApplicator
 {
