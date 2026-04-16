@@ -6,6 +6,7 @@ namespace Modules\Catalog\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
+use Illuminate\Filesystem\FilesystemAdapter;
 use Illuminate\Support\Facades\Storage;
 use InvalidArgumentException;
 
@@ -69,6 +70,9 @@ class ProductImage extends Model
             return '';
         }
 
-        return Storage::disk('public')->url($this->path);
+        /** @var FilesystemAdapter $disk */
+        $disk = Storage::disk('public');
+
+        return $disk->url($this->path);
     }
 }

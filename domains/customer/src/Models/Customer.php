@@ -6,6 +6,8 @@ namespace Modules\Customer\Models;
 
 use App\Models\User;
 use Illuminate\Database\Eloquent\Model;
+use Modules\Catalog\Models\ProductReview;
+use Modules\Checkout\Models\Order;
 use Illuminate\Database\Eloquent\Relations\BelongsTo;
 use Illuminate\Database\Eloquent\Relations\HasMany;
 

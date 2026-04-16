@@ -1,0 +1,24 @@
+{
+	"name": "modules/brand",
+	"description": "Brand visibility, familiarity scoring, and re-engagement campaigns.",
+	"type": "library",
+	"version": "1.0",
+	"license": "proprietary",
+	"require": {},
+	"autoload": {
+		"psr-4": {
+			"Modules\\Brand\\": "src/",
+			"Modules\\Brand\\Tests\\": "tests/",
+			"Modules\\Brand\\Database\\Factories\\": "database/factories/",
+			"Modules\\Brand\\Database\\Seeders\\": "database/seeders/"
+		}
+	},
+	"minimum-stability": "stable",
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Modules\\Brand\\Providers\\BrandServiceProvider"
+			]
+		}
+	}
+}
