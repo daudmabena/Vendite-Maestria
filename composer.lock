@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ac0410d297add7386247ba95daff3cf0",
+    "content-hash": "498eef3a2d4d4679a7dbddefa6f1b002",
     "packages": [
         {
             "name": "brick/math",
@@ -3161,6 +3161,39 @@
             "time": "2022-12-02T22:17:43+00:00"
         },
         {
+            "name": "modules/brand",
+            "version": "1.0",
+            "dist": {
+                "type": "path",
+                "url": "domains/brand",
+                "reference": "3a1d608bf7bb6d63f420156c3cccdcb82d61eb93"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Modules\\Brand\\Providers\\BrandServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Modules\\Brand\\": "src/",
+                    "Modules\\Brand\\Tests\\": "tests/",
+                    "Modules\\Brand\\Database\\Factories\\": "database/factories/",
+                    "Modules\\Brand\\Database\\Seeders\\": "database/seeders/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "description": "Brand visibility, familiarity scoring, and re-engagement campaigns.",
+            "transport-options": {
+                "symlink": true,
+                "relative": true
+            }
+        },
+        {
             "name": "modules/catalog",
             "version": "1.0",
             "dist": {
@@ -4507,16 +4540,16 @@
         },
         {
             "name": "phpoffice/phpspreadsheet",
-            "version": "5.6.0",
+            "version": "5.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPOffice/PhpSpreadsheet.git",
-                "reference": "9b90dee03deb0d28761479c4a3a06fba5f7e012e"
+                "reference": "9f55d3b9b7bcb1084fda8340e4b7ce4ed10cd0c8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/9b90dee03deb0d28761479c4a3a06fba5f7e012e",
-                "reference": "9b90dee03deb0d28761479c4a3a06fba5f7e012e",
+                "url": "https://api.github.com/repos/PHPOffice/PhpSpreadsheet/zipball/9f55d3b9b7bcb1084fda8340e4b7ce4ed10cd0c8",
+                "reference": "9f55d3b9b7bcb1084fda8340e4b7ce4ed10cd0c8",
                 "shasum": ""
             },
             "require": {
@@ -4610,9 +4643,9 @@
             ],
             "support": {
                 "issues": "https://github.com/PHPOffice/PhpSpreadsheet/issues",
-                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/5.6.0"
+                "source": "https://github.com/PHPOffice/PhpSpreadsheet/tree/5.7.0"
             },
-            "time": "2026-04-10T03:00:03+00:00"
+            "time": "2026-04-20T02:42:17+00:00"
         },
         {
             "name": "phpoption/phpoption",
@@ -6875,7 +6908,7 @@
         },
         {
             "name": "symfony/polyfill-ctype",
-            "version": "v1.34.0",
+            "version": "v1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -6934,7 +6967,7 @@
                 "portable"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.34.0"
+                "source": "https://github.com/symfony/polyfill-ctype/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -6958,16 +6991,16 @@
         },
         {
             "name": "symfony/polyfill-intl-grapheme",
-            "version": "v1.34.0",
+            "version": "v1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-grapheme.git",
-                "reference": "ad1b7b9092976d6c948b8a187cec9faaea9ec1df"
+                "reference": "4864388bfbd3001ce88e234fab652acd91fdc57e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/ad1b7b9092976d6c948b8a187cec9faaea9ec1df",
-                "reference": "ad1b7b9092976d6c948b8a187cec9faaea9ec1df",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-grapheme/zipball/4864388bfbd3001ce88e234fab652acd91fdc57e",
+                "reference": "4864388bfbd3001ce88e234fab652acd91fdc57e",
                 "shasum": ""
             },
             "require": {
@@ -7016,7 +7049,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.34.0"
+                "source": "https://github.com/symfony/polyfill-intl-grapheme/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -7036,7 +7069,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-04-10T16:19:22+00:00"
+            "time": "2026-04-26T13:13:48+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
@@ -7127,7 +7160,7 @@
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
-            "version": "v1.34.0",
+            "version": "v1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -7188,7 +7221,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.34.0"
+                "source": "https://github.com/symfony/polyfill-intl-normalizer/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -7212,7 +7245,7 @@
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.34.0",
+            "version": "v1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -7273,7 +7306,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.34.0"
+                "source": "https://github.com/symfony/polyfill-mbstring/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -7297,7 +7330,7 @@
         },
         {
             "name": "symfony/polyfill-php73",
-            "version": "v1.35.0",
+            "version": "v1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php73.git",
@@ -7353,7 +7386,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php73/tree/v1.35.0"
+                "source": "https://github.com/symfony/polyfill-php73/tree/v1.37.0"
             },
             "funding": [
                 {
@@ -7377,7 +7410,7 @@
         },
         {
             "name": "symfony/polyfill-php80",
-            "version": "v1.34.0",
+            "version": "v1.37.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php80.git",
@@ -7437,7 +7470,7 @@
                 "shim"
             ],
             "support": {
-                "source": "https://github.com/symfony/polyfill-php80/tree/v1.34.0"
+                "source": "https://github.com/symfony/polyfill-php80/tree/v1.37.0"
             },
             "funding": [
                 {
